@@ -1,16 +1,41 @@
 import styled, { createGlobalStyle } from "styled-components";
+// import './fonts/Metropolis/';
 import { colors } from "./colors";
 
 export const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap'); */
 
+
+    @font-face {
+    font-family: "Metropolis";
+    src: local("Metropolis"),
+    url("./fonts/Metropolis/Metropolis-Black.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-BlackItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Bold.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-BoldItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ExtraBold.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ExtraBoldItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ExtraLight.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ExtraLightItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Light.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-LightItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Medium.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-MediumItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Regular.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-RegularItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-SemiBold.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-SemiBoldItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Thin.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ThinItalic.otf") format("opentype");
+    font-style: normal;
+    }
 
     * {
         margin: 0;
         font-size: 16px;
         box-sizing: border-box;
-        font-family: 'Orbitron', DM Sans;
+        font-family: 'Metropolis', DM Sans;
         scroll-behavior: smooth;
         
 
@@ -33,7 +58,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 3.9rem;
         color: ${colors.white};
         font-weight: 600;
-        font-family: Orbitron, sans-serif;
+        font-family: Metropolis, sans-serif;
         @media screen and (max-width: 600px) {
           font-size: 1.6rem;
         }
@@ -92,8 +117,8 @@ export const GlobalStyles = createGlobalStyle`
     p {
         font-size: 1rem;
         font-weight: 400;
-        font-family: DM Sans, sans-serif;
-        color: ${colors.grey_text};
+        font-family: 'Metropolis', sans-serif;
+        color: ${colors.light_grey};
         line-height: 2;
     }
 

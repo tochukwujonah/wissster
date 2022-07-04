@@ -1,10 +1,11 @@
-
+import { Container } from "./components/styled";
+import { AboutUs } from "./components";
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <Container>
+      <AboutUs />
+    </Container>
   );
 }
 

@@ -7,5 +7,5 @@ export const colors = {
   blue: "#0163AA",
   yellow: "#E5B91C",
   lemon: "#4BAA01",
-  light_grey: "#CFCFCF",
+  light_grey: "#535353",
 };

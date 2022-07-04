@@ -1,4 +1,33 @@
-body {
+@font-face {
+  font-family: "Metropolis";
+  src: local("Metropolis"),
+    url("./fonts/Metropolis/Metropolis-Regular.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-BlackItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Bold.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-BoldItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ExtraBold.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ExtraBoldItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ExtraLight.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ExtraLightItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Light.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-LightItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Medium.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-MediumItalic.otf") format("opentype"),
+    
+    url("./fonts/Metropolis/Metropolis-RegularItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-SemiBold.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-SemiBoldItalic.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-Thin.otf") format("opentype"),
+    url("./fonts/Metropolis/Metropolis-ThinItalic.otf") format("opentype");
+    font-style: normal;
+  
+  }
+
+
+
+
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +39,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
