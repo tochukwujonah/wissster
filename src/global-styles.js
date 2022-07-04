@@ -33,7 +33,7 @@ export const GlobalStyles = createGlobalStyle`
 
     * {
         margin: 0;
-        font-size: 16px;
+        font-size: 10px;
         box-sizing: border-box;
         font-family: 'Metropolis', DM Sans;
         scroll-behavior: smooth;
@@ -42,6 +42,7 @@ export const GlobalStyles = createGlobalStyle`
     }
     body{
         background-color: ${colors.white};
+        overflow-x: hidden;
     }
 
     h1, h2, h3, h4, h5, h6 {

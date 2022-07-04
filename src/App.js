@@ -1,11 +1,11 @@
-import { Container } from "./components/styled";
-import { AboutUs } from "./components";
-
+import { AppRouter } from "./appRouter";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
-    <Container>
-      <AboutUs />
-    </Container>
+    <div className="pages">
+      <AppRouter />
+    </div>
   );
 }
 
