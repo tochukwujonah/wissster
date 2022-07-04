@@ -37,7 +37,7 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Metropolis', DM Sans;
         scroll-behavior: smooth;
-        
+        color: ${colors.light_grey};
 
     }
     body{
@@ -55,30 +55,27 @@ export const GlobalStyles = createGlobalStyle`
 
 
     h1 {
-    font-size: 3.9rem;
-        color: ${colors.white};
+    font-size: 3.63rem;
         font-weight: 600;
-        font-family: Metropolis, sans-serif;
+        font-family: 'Metropolis', sans-serif;
         @media screen and (max-width: 600px) {
           font-size: 1.6rem;
         }
     }
 
     h2 {
-        font-size: 3.9rem;
-        color: ${colors.white};
+        font-size: 2.89rem;
         font-weight: 400;
-        font-family: Orbitron, sans-serif;
+        font-family: 'Metropolis', sans-serif;
         @media screen and (max-width: 600px) {
           font-size: 1.6rem;
         }
     }
 
     h3 {
-        font-size: 2.44125rem;
-        color: ${colors.white};
+        font-size: 2.25rem;
         font-weight: 400;
-        font-family: Orbitron, sans-serif;
+        font-family: 'Metropolis', sans-serif;
         @media screen and (max-width: 600px) {
           font-size: 1.6rem;
         }
@@ -87,20 +84,18 @@ export const GlobalStyles = createGlobalStyle`
 
     h4 {
         font-size: 1.95rem;
-        color: ${colors.white};
         font-weight: 400;
-        font-family: Orbitron, sans-serif;
+        font-family: 'Metropolis', sans-serif;
         @media screen and (max-width: 600px) {
           font-size: 1.6rem;
         }
     }
 
     h5 {
-        font-size:1.5625rem;
+        font-size:  1.5625rem;
         font-style: normal;
-        color: ${colors.white};
         font-weight: 400;
-        font-family: Orbitron, sans-serif;
+        font-family: 'Metropolis', sans-serif;
         @media screen and (max-width: 600px) {
           font-size: 1.6rem;
         }
@@ -109,8 +104,7 @@ export const GlobalStyles = createGlobalStyle`
     h6 {
         font-size: 1.25rem;
         font-weight: 400;
-        font-family: Orbitron, sans-serif;
-        color: ${colors.white};
+        font-family: 'Metropolis', sans-serif;
 
     }
 

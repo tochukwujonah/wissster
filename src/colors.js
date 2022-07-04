@@ -8,4 +8,5 @@ export const colors = {
   yellow: "#E5B91C",
   lemon: "#4BAA01",
   light_grey: "#535353",
+  simple_grey: "#FBFBFB",
 };
