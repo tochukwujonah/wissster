@@ -1,25 +1,48 @@
 import React from "react";
 import {
-  GoTopWrap,
-  FooterContent,
+  
   FooterWrap,
   FooterContentWrap,
-  FooterHeading,
-  FooterContactingWrap,
-  FooterWrapEmail,
-  FooterPhone,
-  FooterSocialIcons,
+  FooterNav,
+  FooterCredit,
+  FooterLink,
 } from "./style";
-import { FaAngleUp } from "react-icons/fa";
-import {
-  AiFillBehanceCircle,
-  AiFillDribbbleCircle,
-  AiFillLinkedin,
-  AiFillTwitterCircle,
-} from "react-icons/ai";
-import { Button } from "../button";
+
 const Footer = () => {
-  return <FooterWrap></FooterWrap>;
+  return (
+    <FooterWrap>
+      <FooterContentWrap>
+        <FooterNav>
+          <FooterLink 
+            href="https://facebook.com/">
+
+            Facebook
+          </FooterLink>
+
+          <FooterLink 
+            href="https://instagram.com/">
+
+            Instagram
+          </FooterLink>
+
+          <FooterLink 
+            href="https://linkedIn.com/">
+
+            LinkedIn
+          </FooterLink>
+
+          <FooterLink 
+            href="https://pinterest.com/">
+
+            Pinterest
+          </FooterLink>
+        </FooterNav>
+        <FooterCredit>
+          ©2022 Wissster, All rights reserved.
+        </FooterCredit>
+      </FooterContentWrap>
+    </FooterWrap>
+      )
 };
 
 export { Footer };

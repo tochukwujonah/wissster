@@ -4,10 +4,10 @@ import { colors } from "./colors";
 
 export const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 
-    @font-face {
+    /* @font-face {
     font-family: "Metropolis";
     src: local("Metropolis"),
     url("./fonts/Metropolis/Metropolis-Black.otf") format("opentype"),
@@ -29,7 +29,7 @@ export const GlobalStyles = createGlobalStyle`
     url("./fonts/Metropolis/Metropolis-Thin.otf") format("opentype"),
     url("./fonts/Metropolis/Metropolis-ThinItalic.otf") format("opentype");
     font-style: normal;
-    }
+    } */
 
     * {
         margin: 0;
@@ -37,7 +37,7 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Metropolis', DM Sans;
         scroll-behavior: smooth;
-        color: ${colors.light_grey};
+        /* color: ${colors.light_grey}; */
 
     }
     body{
@@ -110,11 +110,17 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.6rem;
         font-weight: 400;
         font-family: 'Metropolis', sans-serif;
         color: ${colors.light_grey};
-        line-height: 2;
+        line-height: 3.2rem;
+    }
+
+    br{
+        content: "";
+        display: block;
+        margin: 20px 0;
     }
 
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ButtonWrapper = styled.button`
   border-radius: 0px;
-  padding: 15px 32px;
+  padding: 20px 40px;
   background-color: ${({ filled, bgColor }) =>
     !filled && !bgColor
       ? "transparent"
@@ -21,9 +21,11 @@ export const ButtonWrapper = styled.button`
       : filled && bgColor
       ? "white"
       : "red"};
-  font-family: "DM Sans", sans-serif;
+  font-family: "Metropolis", sans-serif;
+  font-size: 16px !important;
   border: none;
   outline: none;
+  width: fit-content;
 
   cursor: pointer;
   text-decoration: none;
