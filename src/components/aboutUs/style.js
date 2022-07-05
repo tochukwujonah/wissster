@@ -5,6 +5,7 @@ export const Container = styled.section`
     width: 100%;
     max-width: 100%;
     background-color: ${colors.simple_grey};
+    border: 2px solid red;
     
 `
 

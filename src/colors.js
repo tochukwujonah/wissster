@@ -2,7 +2,7 @@ export const colors = {
   primary: "#9F42FE",
   secondary: "#E74141",
   white: "#fff",
-  grey_text: "rgba(164, 164, 164, 1)",
+  grey: "#F8F6FE",
   purple: "#A701AA",
   blue: "#0163AA",
   yellow: "#E5B91C",

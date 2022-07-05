@@ -11,6 +11,7 @@ export const Container = styled.section`
     justify-content: center;
     padding: 58px 0;
     color: ${colors.white};
+    border: 1px solid red;
 
     & h3{
         font-family: 'Dela Gothic One', cursive;

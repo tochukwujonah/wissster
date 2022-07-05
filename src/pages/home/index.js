@@ -2,12 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import { AboutUs } from "../../components/aboutUs";
 import { ContactUs } from "../../components/contactUs";
+import { OurBlog } from "../../components/ourBlog";
 
 const Home = () => {
   return (
     <Container>
       <AboutUs />
       <ContactUs />
+      <OurBlog />
+      
     </Container>
   )
   
