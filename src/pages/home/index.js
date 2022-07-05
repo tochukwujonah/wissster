@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import { AboutUs } from "../../components/aboutUs/index";
+import { AboutUs } from "../../components/aboutUs";
+import { ContactUs } from "../../components/contactUs";
 
 const Home = () => {
   return (
     <Container>
       <AboutUs />
+      <ContactUs />
     </Container>
   )
   

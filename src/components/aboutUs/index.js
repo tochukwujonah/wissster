@@ -24,7 +24,7 @@ const AboutUs = () => {
             <div>
 
             
-            <h1>We at Wissster</h1>
+            <h3>We at Wissster</h3>
             <p>
             Wissster collaborates with clients to create memorable identities, promotionals, packaging, and environments. Whether it is a large international campaign or a small independent initiative.<br/>
             <br/>

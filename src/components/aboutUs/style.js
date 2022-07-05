@@ -42,7 +42,7 @@ export const TextContainer = styled.div`
     justify-content: space-between;
     width: 48%;
 
-& h1{
+& h3{
     font-family: 'Dela Gothic One', cursive;
     padding-bottom: 16px;
 } 
