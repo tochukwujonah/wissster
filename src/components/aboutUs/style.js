@@ -2,51 +2,63 @@ import styled from "styled-components";
 import { colors } from "../../colors";
 
 export const Container = styled.section`
-    width: 100%;
+    width: 1300px;
+    margin: 0 auto;
     max-width: 100%;
     background-color: ${colors.simple_grey};
-    border: 2px solid red;
     
-`
+`;
 
 export const InnerContainer = styled.div`
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    /* align-items: center; */
     padding: 9.1rem 0;
     margin: 0 auto;
 
-`
+`;
 
 export const ImageContainer = styled.div`
     height: 550px;
     width: 47%;
-    border: 1px solid red;
-    border-left: none;
-    border-right: none;
-    /* border-top: none; */
     -webkit-border-before-color: red;
     padding: 23px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    /* border-bottom-right-radius: 0px; */
-`
+    position: relative;
+
+    & :nth-child(1){
+        position: absolute;
+        top: 0;
+        right: 22%;
+    }
+
+    & :last-child{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+`;
 
 export const TeamImage = styled.img`
     margin: 0 auto;
-`
+`;
 
 export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 48%;
+
+    & div{
+        padding-bottom: 3rem;
+    }
 
 & h3{
     font-family: 'Dela Gothic One', cursive;
     padding-bottom: 16px;
+    color: ${colors.light_grey};
 } 
 
-`
+`;
 

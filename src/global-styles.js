@@ -114,7 +114,7 @@ export const GlobalStyles = createGlobalStyle`
         font-weight: 400;
         font-family: 'Metropolis', sans-serif;
         color: ${colors.light_grey};
-        line-height: 3.2rem;
+        line-height: 2.4rem;
     }
 
     br{

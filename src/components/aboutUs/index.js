@@ -11,14 +11,20 @@ import {
     TextContainer,
 } from './style'
 
-import { teamMeet } from '../../assets';
+import { 
+    teamMeet,
+    rightCurve,
+    leftCurve, 
+} from '../../assets';
 
 const AboutUs = () => {
   return (
     <Container>
         <InnerContainer>
         <ImageContainer>
+            <img src={rightCurve} alt="" />
             <TeamImage src={teamMeet} />
+            <img src={leftCurve} alt="" />
         </ImageContainer>
         <TextContainer>
             <div>
