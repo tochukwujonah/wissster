@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { LetsConnect, Testimonials } from "../../components";
+import { LetsConnect, Testimonials, TestSlider } from "../../components";
 
 
 const Home = () => {
   return (
     <Container>
+      <TestSlider/>
       <Testimonials/>
       <LetsConnect/>
       {/* <AboutUs />
