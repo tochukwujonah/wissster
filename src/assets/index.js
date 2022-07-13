@@ -9,6 +9,10 @@ import theCreamBrand from "./theCreamBrand.svg";
 import theCreamBrandBook from "./theCreamBrandBook.svg";
 import fineGirlOne from "./fineGirlOne.svg";
 import fineGirlTwo from "./fineGirlTwo.svg";
+import fineBoyOne from "./fineBoyOne.svg";
+import fineBoyTwo from "./fineBoyTwo.svg";
+import customerService from "./customerService.svg"
+import swirl from "./swirl.svg"
 
 export{
     teamMeet,
@@ -22,5 +26,9 @@ export{
     theCreamBrandBook,
     fineGirlOne,
     fineGirlTwo,
+    fineBoyOne,
+    fineBoyTwo,
+    customerService,
+    swirl
 };
 

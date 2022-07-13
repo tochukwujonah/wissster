@@ -36,7 +36,7 @@ export const GlobalStyles = createGlobalStyle`
     h1 {
     font-size: 5.8rem;
         font-weight: 600;
-        font-family: 'Metropolis', sans-serif;
+        font-family: 'Dela Gothic One', sans-serif;
         @media screen and (max-width: 600px) {
           font-size: 1.6rem;
         }
@@ -53,8 +53,8 @@ export const GlobalStyles = createGlobalStyle`
 
     h3 {
         font-size: 4.0rem;
-        font-weight: 600;
-        font-family: 'Metropolis', sans-serif;
+        font-weight: 400;
+        font-family: 'Dela Gothic One', sans-serif;
         @media screen and (max-width: 600px) {
           font-size: 1.6rem;
         }
@@ -71,7 +71,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     h5 {
-        font-size:  1.95rem;
+        font-size:  2rem;
         font-style: normal;
         font-weight: 400;
         font-family: 'Metropolis', sans-serif;

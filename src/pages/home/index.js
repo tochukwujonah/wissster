@@ -1,15 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import { AboutUs } from "../../components/aboutUs";
-import { ContactUs } from "../../components/contactUs";
-import { OurBlog } from "../../components/ourBlog";
+import { LetsConnect, Testimonials } from "../../components";
+
 
 const Home = () => {
   return (
     <Container>
-      <AboutUs />
+      <Testimonials/>
+      <LetsConnect/>
+      {/* <AboutUs />
       <ContactUs />
-      <OurBlog />
+      <OurBlog /> */}
       
     </Container>
   )

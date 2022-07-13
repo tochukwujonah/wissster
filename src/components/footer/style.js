@@ -13,7 +13,7 @@ export const FooterWrap = styled.footer`
   /* max-width: 1150px; */
   padding: 5rem 0;
   margin: 0 auto;
-  background-color: #F8F6FE;
+  background-color: ${colors.secondary};
   @media screen and (max-width: 768px) {
     width: 90%;
   }
@@ -55,7 +55,7 @@ export const FooterLink = styled.a.attrs({target: '_blank'})`
   padding-right: 10px;
   padding-left: 10px;
   /* padding: 0 0 30px 0; */
-  color: ${colors.light_grey};
+  color: ${colors.white};
   width: max-content;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -65,7 +65,7 @@ export const FooterLink = styled.a.attrs({target: '_blank'})`
   
 
   &:hover {
-    color: ${colors.primary};
+    color: ${colors.link_hover};
     transition: all 0.3s ease-in-out;
   }
   &.active {
@@ -78,5 +78,6 @@ export const FooterLink = styled.a.attrs({target: '_blank'})`
 export const FooterCredit = styled.p`
   padding-top: 30px;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
+  color: ${colors.white};
 `;

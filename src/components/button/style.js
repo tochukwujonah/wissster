@@ -22,7 +22,7 @@ export const ButtonWrapper = styled.button`
       : !filled && bgColor
       ? bgColor
       : filled && bgColor
-      ? "white"
+      ? "black"
       : "red"};
   
   border: none;
