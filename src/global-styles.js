@@ -7,30 +7,7 @@ export const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 
-    /* @font-face {
-    font-family: "Metropolis";
-    src: local("Metropolis"),
-    url("./fonts/Metropolis/Metropolis-Black.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-BlackItalic.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-Bold.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-BoldItalic.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-ExtraBold.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-ExtraBoldItalic.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-ExtraLight.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-ExtraLightItalic.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-Light.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-LightItalic.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-Medium.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-MediumItalic.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-Regular.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-RegularItalic.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-SemiBold.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-SemiBoldItalic.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-Thin.otf") format("opentype"),
-    url("./fonts/Metropolis/Metropolis-ThinItalic.otf") format("opentype");
-    font-style: normal;
-    } */
-
+    
     * {
         margin: 0;
         font-size: 10px;
@@ -41,7 +18,8 @@ export const GlobalStyles = createGlobalStyle`
 
     }
     body{
-        background-color: ${colors.white};
+        background-color: ${colors.primary}; 
+        color: ${colors.white};
         overflow-x: hidden;
     }
 
@@ -74,7 +52,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     h3 {
-        font-size: 3.63rem;
+        font-size: 4.0rem;
         font-weight: 600;
         font-family: 'Metropolis', sans-serif;
         @media screen and (max-width: 600px) {

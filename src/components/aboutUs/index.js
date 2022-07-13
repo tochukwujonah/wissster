@@ -41,7 +41,7 @@ const AboutUs = () => {
 
             </div>
             
-            <Button filled bgColor='#9F42FE' noIcon text={'Collaborate with us'} />
+            <Button filled bgColor={colors.yellow} noIcon text={'Collaborate with us'} />
             
         </TextContainer>
         </InnerContainer>

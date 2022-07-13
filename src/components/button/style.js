@@ -1,8 +1,11 @@
 import styled from "styled-components";
+import { colors } from "../../colors";
 
 export const ButtonWrapper = styled.button`
   border-radius: 0px;
   padding: 20px 40px;
+  font-family: "Metropolis", sans-serif;
+  font-size: 76px !important;
   background-color: ${({ filled, bgColor }) =>
     !filled && !bgColor
       ? "transparent"
@@ -21,8 +24,7 @@ export const ButtonWrapper = styled.button`
       : filled && bgColor
       ? "white"
       : "red"};
-  font-family: "Metropolis", sans-serif;
-  font-size: 16px !important;
+  
   border: none;
   outline: none;
   width: fit-content;
@@ -36,6 +38,10 @@ export const ButtonWrapper = styled.button`
     ${({ filled, bgColor }) =>
       filled && bgColor ? bgColor : !filled && bgColor ? bgColor : "red"};
   gap: 8px;
+  & > span {
+    font-size: 16px;
+    font-family: "Metropolis", sans-serif;
+  }
   & > span.last-span {
     display: flex;
     align-items: center;
