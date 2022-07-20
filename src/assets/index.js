@@ -1,4 +1,4 @@
-import teamMeet from './team-meet.svg';
+import teamMeet from "./team-meet.svg";
 import wissterlogo from "./wissterlogo.png";
 import macdonald from "./macdonald.svg";
 import worthybrand from "./worthybrand.jpg";
@@ -11,24 +11,24 @@ import fineGirlOne from "./fineGirlOne.svg";
 import fineGirlTwo from "./fineGirlTwo.svg";
 import fineBoyOne from "./fineBoyOne.svg";
 import fineBoyTwo from "./fineBoyTwo.svg";
-import customerService from "./customerService.svg"
-import swirl from "./swirl.svg"
-
-export{
-    teamMeet,
-    wissterlogo,
-    macdonald,
-    worthybrand,
-    rightCurve,
-    leftCurve,
-    theOrangeBrand,
-    theCreamBrand,
-    theCreamBrandBook,
-    fineGirlOne,
-    fineGirlTwo,
-    fineBoyOne,
-    fineBoyTwo,
-    customerService,
-    swirl
+import customerService from "./customerService.svg";
+import swirl from "./swirl.svg";
+import heroBg from "./heroBg.png";
+export {
+  teamMeet,
+  wissterlogo,
+  macdonald,
+  worthybrand,
+  rightCurve,
+  leftCurve,
+  theOrangeBrand,
+  theCreamBrand,
+  theCreamBrandBook,
+  fineGirlOne,
+  fineGirlTwo,
+  fineBoyOne,
+  fineBoyTwo,
+  customerService,
+  swirl,
+  heroBg,
 };
-
