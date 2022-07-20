@@ -1,7 +1,13 @@
 import React from "react";
+import { AboutUs, WhatWeDo } from "../../components";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <AboutUs />
+      <WhatWeDo />
+    </div>
+  );
 };
 
 export { About };

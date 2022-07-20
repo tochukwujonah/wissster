@@ -5,6 +5,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import "./style.css";
 import { wissterlogo } from "../../assets";
+import { SideNav } from "../sidenav";
 const NavBar = () => {
   const [click, setClick] = useState(false);
 
@@ -12,95 +13,19 @@ const NavBar = () => {
   const Close = () => setClick(false);
 
   return (
-    <div>
-      <div className={click ? "main-container" : ""} onClick={() => Close()} />
+    <div className="navWrap">
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
             <img src={wissterlogo} />
           </Link>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/projects"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Our Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Our Works
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                About Us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/projects"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Our Blog
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Contact Us
-              </Link>
-            </li>
-          </ul>
           <div className="nav-icon" onClick={handleClick}>
-            {click ? (
-              <i className="fa fa-times">
-                <AiOutlineClose />
-              </i>
-            ) : (
-              <i className="fa fa-bars">
-                {" "}
-                <RiMenu3Fill />
-              </i>
-            )}
+            <span></span>
+            <span></span>
           </div>
         </div>
       </nav>
+      <SideNav isModalOpen={click} onClose={Close} />
     </div>
   );
 };
