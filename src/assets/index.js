@@ -14,6 +14,7 @@ import fineBoyTwo from "./fineBoyTwo.svg";
 import customerService from "./customerService.svg";
 import swirl from "./swirl.svg";
 import heroBg from "./heroBg.png";
+import thebrand3 from "./thebrand3.png";
 export {
   teamMeet,
   wissterlogo,
@@ -31,4 +32,5 @@ export {
   customerService,
   swirl,
   heroBg,
+  thebrand3,
 };

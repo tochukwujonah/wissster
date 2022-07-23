@@ -49,7 +49,8 @@ export const InnerContainer = styled.div`
   justify-content: start;
   align-items: flex-end;
   max-width: 1150px;
-  min-height: calc(100vh - 84px);
+  height: calc(100vh - 84px);
+  /* max-height: 50rem; */
   margin: 0 auto;
 `;
 export const IntroWrap = styled.aside`
