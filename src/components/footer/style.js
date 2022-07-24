@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import {colors} from "../../colors"
-
+import { colors } from "../../colors";
 
 export const FooterWrap = styled.footer`
   display: flex;
@@ -15,7 +14,7 @@ export const FooterWrap = styled.footer`
   margin: 0 auto;
   background-color: ${colors.secondary};
   @media screen and (max-width: 768px) {
-    width: 90%;
+    width: 100%;
   }
 `;
 
@@ -23,7 +22,6 @@ export const FooterContentWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
 `;
 
 export const FooterNav = styled.div`
@@ -34,22 +32,21 @@ export const FooterNav = styled.div`
   width: 100%;
   padding: 10px;
 
-  & > :nth-child(1){
+  & > :nth-child(1) {
     /* padding-right: 10px; */
     border-right: 2px solid;
   }
 
-  & > :nth-child(2){
+  & > :nth-child(2) {
     border-right: 2px solid;
   }
 
-  & > :nth-child(3){
+  & > :nth-child(3) {
     border-right: 2px solid;
   }
 `;
 
-export const FooterLink = styled.a.attrs({target: '_blank'})`
-
+export const FooterLink = styled.a.attrs({ target: "_blank" })`
   display: flex;
   text-decoration: none;
   padding-right: 10px;
@@ -60,9 +57,8 @@ export const FooterLink = styled.a.attrs({target: '_blank'})`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   font-family: "Metropolis", sans-serif;
-  font-size: 1.6rem;
+  font-size: clamp(1.3rem, 3vw, 1.6rem);
   font-weight: 600;
-  
 
   &:hover {
     color: ${colors.link_hover};
@@ -72,8 +68,7 @@ export const FooterLink = styled.a.attrs({target: '_blank'})`
     color: ${colors.primary};
     transition: all 0.3s ease-in-out;
   }
-
-`
+`;
 
 export const FooterCredit = styled.p`
   padding-top: 30px;

@@ -44,12 +44,16 @@ const TextContainer = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-
+  & > h3 {
+    font-size: clamp(2.2rem, 4vw, 4rem);
+    text-align: center;
+  }
   & > p {
     padding: 42px 0 38px 0;
     text-align: center;
     color: ${colors.white};
-    width: 35%;
+    max-width: 550px;
+    width: 90%;
   }
 
   & > h6 {

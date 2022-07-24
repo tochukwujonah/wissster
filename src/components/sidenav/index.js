@@ -81,7 +81,7 @@ const Container = styled.div`
   width: 65%;
   z-index: 999;
   max-width: 40vw;
-  min-width: ${(props) => (props.isOpen ? "280px" : "0")};
+  min-width: ${(props) => (props.isOpen ? "300px" : "0")};
   background-color: ${colors.yellow};
   width: ${(props) => (props.isOpen ? "65%" : "0")};
   height: ${(props) => props.isOpen && "fit-content"};
@@ -187,6 +187,7 @@ const NavLink = styled(Link)`
   & > h3 {
     font-size: 3rem;
     font-weight: 500;
+    white-space: nowrap;
   }
   &:hover {
     transition: all 0.3s ease-in-out;
@@ -207,6 +208,9 @@ const Footer = styled.div`
   align-self: flex-end;
   margin: 0 auto;
   padding: 1rem;
+  @media (max-width: 500px) {
+    width: 80%;
+  }
 `;
 const SocialIcon = styled.div`
   display: flex;

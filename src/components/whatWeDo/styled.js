@@ -19,11 +19,12 @@ export const InnerContainer = styled.div`
 `;
 export const ServiceWrap = styled.div`
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   gap: 3rem;
 `;
 export const ServiceCard = styled.div`
-  max-width: 600px;
+  max-width: 550px;
   width: 100%;
   padding: 3rem 4.5rem;
   background-color: ${colors.secondary};

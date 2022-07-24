@@ -24,7 +24,7 @@ export const ButtonWrapper = styled.button`
       : filled && bgColor
       ? "black"
       : "red"};
-  
+
   border: none;
   outline: none;
   width: fit-content;
@@ -54,9 +54,9 @@ export const ButtonWrapper = styled.button`
   }
   @media (max-width: 768px) {
     padding: 10px 15px;
-    font-size: 13px !important;
+    font-size: 15px !important;
     & > span {
-      font-size: 10px !important;
+      font-size: 15px !important;
     }
   }
 `;

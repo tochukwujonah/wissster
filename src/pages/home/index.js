@@ -70,6 +70,11 @@ const SlidersWrap = styled.div`
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    @media (max-width: 1115px) {
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
+    }
     &:last-of-type {
       & > div {
         margin-top: 1.3rem;
