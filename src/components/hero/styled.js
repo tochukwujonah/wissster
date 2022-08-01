@@ -65,6 +65,11 @@ export const TextWrap = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media (max-width: 1300px) {
+    padding: 2rem;
+  }
+  
 `;
 export const ButtonWrap = styled.div`
   height: 120px;
