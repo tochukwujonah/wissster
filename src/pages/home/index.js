@@ -1,6 +1,22 @@
 import React from "react";
 import styled from "styled-components";
-import { thebrand3, theCreamBrand, theOrangeBrand } from "../../assets";
+import { 
+  thebrand3, 
+  theCreamBrand, 
+  theOrangeBrand,
+  productpackaging1,
+  productpackaging2,
+  productpackaging3,
+  productpackaging4,
+  brandslide1,
+  brandslide2,
+  brandslide3,
+  brandslide4,
+  promoslide1,
+  promoslide2,
+  promoslide3,
+  promoslide4,
+ } from "../../assets";
 import { colors } from "../../colors";
 import { Button, Hero, TestSlider } from "../../components";
 
@@ -13,16 +29,16 @@ const Home = () => {
         <div>
           <SliderWrap>
             <TestSlider
-              Images={[theCreamBrand, theOrangeBrand, theOrangeBrand]}
+              Images={[brandslide1, brandslide2, brandslide3, brandslide4]}
             />
           </SliderWrap>
           <SliderWrap>
-            <TestSlider Images={[theOrangeBrand, theCreamBrand]} />
+            <TestSlider Images={[promoslide1, promoslide2, promoslide3, promoslide4]} />
           </SliderWrap>
         </div>
         <div>
           <SliderWrap>
-            <TestSlider Images={[thebrand3, thebrand3, theCreamBrand]} />
+            <TestSlider Images={[productpackaging1, productpackaging2, productpackaging3, productpackaging4]} />
           </SliderWrap>
         </div>
       </SlidersWrap>
