@@ -16,6 +16,7 @@ const TestSlider = ({ Images = [] }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
     nextArrow: (
       <ArrowN className="ArrowN">
         <BsFillArrowRightCircleFill size={35} />
@@ -50,8 +51,8 @@ export { TestSlider };
 const Wrap = styled.div`
   width: 100%;
   max-height: 100%;
-
   & .slick-dots {
+    /* border: 1px solid red; */
     width: 90%;
     margin: 0 auto;
     padding: 0 !important;
@@ -74,6 +75,9 @@ const Wrap = styled.div`
         border: 0;
         background: transparent;
       }
+    }
+    @media (max-width: 768px) {
+      bottom: 20px !important;
     }
   }
   & .slick-slider {
@@ -111,6 +115,7 @@ const Wrap = styled.div`
 const ImageWrap = styled.div`
   width: 100%;
   height: 100%;
+  /* border: 1px solid red; */
   & > img {
     width: 100%;
     height: 100% !important;

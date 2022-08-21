@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { 
-  thebrand3, 
-  theCreamBrand, 
+import {
+  thebrand3,
+  theCreamBrand,
   theOrangeBrand,
   productpackaging1,
   productpackaging2,
@@ -16,7 +16,7 @@ import {
   promoslide2,
   promoslide3,
   promoslide4,
- } from "../../assets";
+} from "../../assets";
 import { colors } from "../../colors";
 import { Button, Hero, TestSlider } from "../../components";
 
@@ -33,12 +33,21 @@ const Home = () => {
             />
           </SliderWrap>
           <SliderWrap>
-            <TestSlider Images={[promoslide1, promoslide2, promoslide3, promoslide4]} />
+            <TestSlider
+              Images={[promoslide1, promoslide2, promoslide3, promoslide4]}
+            />
           </SliderWrap>
         </div>
         <div>
           <SliderWrap>
-            <TestSlider Images={[productpackaging1, productpackaging2, productpackaging3, productpackaging4]} />
+            <TestSlider
+              Images={[
+                productpackaging1,
+                productpackaging2,
+                productpackaging3,
+                productpackaging4,
+              ]}
+            />
           </SliderWrap>
         </div>
       </SlidersWrap>
@@ -79,6 +88,7 @@ const SlidersWrap = styled.div`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  /* border: 1px solid red; */
 
   & > div {
     width: 100%;
@@ -86,6 +96,7 @@ const SlidersWrap = styled.div`
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    /* border: 1px solid red; */
     @media (max-width: 1115px) {
       flex-direction: column;
       width: 90%;
@@ -96,6 +107,7 @@ const SlidersWrap = styled.div`
         margin-top: 1.3rem;
         max-width: 100%;
         width: 100%;
+        /* border: 1px solid red; */
       }
     }
   }
@@ -104,4 +116,9 @@ const SliderWrap = styled.div`
   height: 677px;
   width: 100%;
   max-width: 550px;
+  @media (max-width: 1115px) {
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+  }
 `;
