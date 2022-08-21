@@ -4,7 +4,7 @@ import { FaCode } from "react-icons/fa";
 import { RiMenu3Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import "./style.css";
-import { wissterlogo } from "../../assets";
+import { wissterlogo, logomark } from "../../assets";
 import { SideNav } from "../sidenav";
 const NavBar = () => {
   const [click, setClick] = useState(false);

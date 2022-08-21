@@ -27,6 +27,7 @@ import promoslide1 from "./promoslide1.png";
 import promoslide2 from "./promoslide2.png";
 import promoslide3 from "./promoslide3.png";
 import promoslide4 from "./promoslide4.png";
+import logomark from "./logomark.png";
 export {
   teamMeet,
   wissterlogo,
@@ -57,4 +58,5 @@ export {
   promoslide2,
   promoslide3,
   promoslide4,
+  logomark,
 };
