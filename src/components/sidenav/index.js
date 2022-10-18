@@ -45,22 +45,22 @@ const SideNav = ({ isModalOpen, onClose }) => {
         </Body>
         <Footer>
           <SocialIcon>
-            <IconLink href="#">
+            <IconLink href="https://www.behance.net/wisssterstudio">
               <AiFillBehanceCircle size={25} />
             </IconLink>
           </SocialIcon>
           <SocialIcon>
-            <IconLink href="#">
+            <IconLink href="https://twitter.com/wisssterstudio">
               <AiOutlineTwitter size={25} />
             </IconLink>
           </SocialIcon>
           <SocialIcon>
-            <IconLink href="#">
+            <IconLink href="https://www.linkedin.com/company/wisssterstudio">
               <FaLinkedinIn size={25} />
             </IconLink>
           </SocialIcon>
           <SocialIcon>
-            <IconLink href="#">
+            <IconLink href="https://dribbble.com/wisssterstudio">
               <AiFillDribbbleCircle size={25} />
             </IconLink>
           </SocialIcon>

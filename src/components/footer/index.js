@@ -14,25 +14,25 @@ const Footer = () => {
       <FooterContentWrap>
         <FooterNav>
           <FooterLink 
-            href="https://facebook.com/">
+            href="https://web.facebook.com/wisssterstudio/">
 
             Facebook
           </FooterLink>
 
           <FooterLink 
-            href="https://instagram.com/">
+            href="https://www.instagram.com/wisssterstudio/">
 
             Instagram
           </FooterLink>
 
           <FooterLink 
-            href="https://linkedIn.com/">
+            href="https://www.linkedin.com/company/wisssterstudio">
 
             LinkedIn
           </FooterLink>
 
           <FooterLink 
-            href="https://pinterest.com/">
+            href="https://www.pinterest.com/wisssterstudio/">
 
             Pinterest
           </FooterLink>
